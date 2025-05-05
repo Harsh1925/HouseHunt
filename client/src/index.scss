@@ -1,0 +1,44 @@
+/* ===============================
+   Global Reset & Base Styles
+================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   Typography & Body
+================================== */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: auto; /* FIX: allows vertical scroll */
+}
+
+/* ===============================
+   Root Container Setup
+================================== */
+html, body, #root {
+  height: auto;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ===============================
+   Links
+================================== */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+/* Optional: Add hover effect */
+a:hover {
+  color: #ff6600; /* Example accent color */
+}
